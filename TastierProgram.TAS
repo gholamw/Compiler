@@ -1,0 +1,78 @@
+// program to read integer values n (n > 0) from the console
+// and, for each one, print the sum of the values from 1 to n
+
+program Test {
+      int value;
+      //int m;
+      //int i;
+      arr arrayPotter int [5];
+
+      void FuncA(){
+      int m;
+        m := 10 ;
+      }
+
+    void FuncB(){
+      int m;
+        m := 10 ;
+      }
+
+   void main() {
+     
+       int i;
+       int j;
+       int f;
+       int h;
+       i := 1;
+       j := 3;
+       f := 100;
+       h := 455;
+       value := 100;
+
+       write "///////";
+       write i;
+       i := j>=10 ? i+1 : i-1; 
+       write "-------";
+       write i;
+
+       write "///////";
+       write i;
+
+       switch(j){
+          case 1 :    i := 1 ;
+                      break ; 
+          case 2 :    i := 2 ;
+                      break ;
+          case 3 :    i := 3 ;
+                      break ;
+       }  
+       write "------";
+       write i;
+
+
+
+  FuncA(&i &j);
+  FuncB(&f &h);
+
+      * arrayPotter [0] <- 100;
+      * arrayPotter [1] <- 50;
+      * arrayPotter [2] <- 3;
+      * arrayPotter [3] <- 1;
+      int value <- arr arrayPotter[3];
+      write "/////// value after loading afrom array/////";
+      write "-----------";
+      write value;
+
+      write "/////// j before for loop /////";
+      write j;
+      for(i:=0; i<5; i:= i+1)
+      	do{
+      		j := j + 1;
+      	}
+        write "--------";
+        write j;
+
+      }  
+   }
+
+    
